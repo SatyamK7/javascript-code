@@ -26,7 +26,7 @@ user.email = "satyam@2002"
 
 // Object.freeze(user)
 user.email = "kumar7777"
-console.log(user.email);
+// console.log(user.email);
 
 user.greeting = function(){
     console.log("Hello js users");
@@ -36,5 +36,25 @@ user.greeting2 = function(){
     console.log(`Hello user,${this.name}`);
 }
 
-console.log(user.greeting());
-console.log(user.greeting2());
+// console.log(user.greeting());
+// console.log(user.greeting2());
+
+// console.log(Object.keys(user));
+// console.log(Object.values(user))
+
+// console.log(user.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName: "javascript",
+    price: "999",
+    courseInstructor: "Kumar"
+}
+
+// course.courseInstructor(1)
+
+// const {courseInstructor} = course // if we use this syntax then we do not need to use syntax in 1
+// console.log(courseInstructor);
+
+// or we can give it a name
+const {courseInstructor: teacher} = course
+console.log(teacher);
