@@ -2,6 +2,8 @@
 
 // object literals
 
+//The const declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
+
 const mySim = Symbol("key1")
 const user = { 
     name : "kumar",
