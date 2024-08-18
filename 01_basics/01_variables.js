@@ -5,7 +5,7 @@ accountCity = "Siwan"
 let accountState;
 
 
-//accountId = 2 // a constant variable can not be updated
+//accountId = 2 // a const variable can not be updated
 console.log(accountState)
 
 console.table([accEmail,accountId,accPassword,accountCity,accountState])
