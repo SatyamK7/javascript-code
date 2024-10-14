@@ -1,0 +1,1 @@
+console.log("Kumar Satyam is a legend");
